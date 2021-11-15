@@ -1,4 +1,4 @@
- gretengs = [
+greetings = [
 	"Привет, дорогой друг. Отвечаю на твой вопрос...",
 	"Кто вопрошает, тот получит ответ:",
 	"Здравствуй, смертный. Сегодня для тебя такой ответ:"
@@ -34,6 +34,6 @@
 	"Весьма сомнительно"
 	]
 	# выводим случайный элемент массива
-puts gretengs.sample
-puts 3.times { print "Ruby! " }
+puts greetings.sample
+puts 3.times { print "Ruby!" }
 puts answers.sample 
